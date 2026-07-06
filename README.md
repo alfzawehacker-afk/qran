@@ -1,2 +1,0 @@
-# qran
-alqran alkareem
