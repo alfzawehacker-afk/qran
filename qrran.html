@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقع فزاع الروحاني</title>
+    <link rel="stylesheet" href="qrran.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2904/2904843.png">
+</head>
+<body>
+
+    <div class="card">
+        <h2>ورد الختمة (7 أيام)</h2>
+        <p class="info" id="quran-day">جاري التحميل...</p>
+        <p class="info" id="quran-part" style="color: #27ae60;"></p>
+        <button class="btn" onclick="nextDay()">أتممت ورد اليوم ✅</button>
+    </div>
+
+    <div class="card">
+        <h2>السبحة الإلكترونية</h2>
+        <div id="counter">0</div>
+        <button class="btn" onclick="pressTasbih()">اضغط للتسبيح</button>
+        <button class="btn btn-reset" onclick="resetTasbih()">تصفير العداد</button>
+    </div>
+
+    <div class="card">
+        <h2>مكتبة الطب البديل</h2>
+        <ul id="herb-list">
+            <li>🌿 <b>الزنجبيل:</b> لتقوية المناعة والبرد.</li>
+            <li>🍃 <b>النعناع:</b> لراحة المعدة والقولون.</li>
+            <li>✨ <b>حبة البركة:</b> شفاء من كل داء بإذن الله.</li>
+        </ul>
+    </div>
+
+    <script src="qrran.js"></script>
+
+   
+
+</body>
+</html>
